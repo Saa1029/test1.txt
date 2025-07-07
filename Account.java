@@ -45,5 +45,15 @@ public class Account
         }
         return balance;
     }
-    
+    public int transferTo()
+    {
+        if(amount<=balance)
+        {
+            this.balance -= amount;
+        }
+        else
+        {
+            System.out.println("You")
+        }
+    }
 }
